@@ -1,0 +1,226 @@
+body{
+    background-color:black;
+    width:100%;
+}
+nav{
+    background-color:#000000;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:100px;
+}
+#span{
+    color: gold;
+    font-weight: bold;
+    font-size: 5rem;
+}
+.navbar a{
+    
+    color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+button{
+  border: none;
+  background-color:  rgb(6, 182, 59);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin: 100px 2px;
+  cursor: pointer;
+  border-radius:10%;
+}
+.btn a{
+    color: gold;
+	font-size: 20px;
+	font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(41, 4, 164);
+  }
+.hr{
+    border: none;
+    border-top: 15px dotted;
+    width: 75px;
+    border-color: gray;
+}
+.header{
+    margin:110px;
+    float:left;
+    }
+    .image {
+        margin:80px;
+        height:500px;
+        width: 500px;
+        background: url("class-1.jpg");
+       border-radius: 20%;    
+    }
+    h3{
+        color:rgb(246, 226, 117);
+        font-weight: bold;
+    }
+    h1{
+        font-size:5rem ;
+        font-weight: bold;
+        color:rgba(88, 228, 253, 0.96);
+    }
+    h2{
+        font-size:3rem ;
+        font-weight: bold;
+        color:white
+    }
+   .main{
+    display: flex;
+    width: 100%;
+    height:90vh;
+   }
+   .classes{
+    width:100%;
+   }
+   .ourclass{
+    margin:80px;
+    color:gold;
+}
+ 
+img{
+    width: 250px;
+    height: 250px ;
+    border-radius: 20%;
+}
+.class_card {
+    padding: 0 10px;
+  }
+  .all_cards{
+
+  margin:80px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  }
+  .card {
+    color: #ffff;
+    border-radius: 10%;
+    box-shadow: 2px 2px white; 
+    padding: 16px;
+    text-align: center;
+    background-color: #000000;
+  }
+  .card:hover{
+   transform: scale(1.05) ;
+   transition: 0.8s;
+  }  
+
+  .para{
+    float: right;
+    padding: 30px;
+    margin-right: 80px;
+    color:antiquewhite;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    max-width: 45%;
+  }
+
+  .aboutimage {
+    margin:80px;
+    height:500px;
+    width: 500px;
+    background: url("about2.jpg");
+    background-size: cover;
+   border-radius: 20%;    
+}
+
+span{
+    color: lightsalmon;
+}
+
+
+
+.footers{
+    display:flex;
+   flex-direction: row;
+    justify-content:center;
+    background-color: rgb(15, 19, 19);
+    }
+    .footerlogo{
+        margin-left: 80px;
+        padding: 20px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+    }
+    #footerspan{
+        color: gold;
+        font-weight: bold;
+        font-size: 3.5rem;
+    }
+    .footerpara {
+    color:antiquewhite;
+    padding:20px ;
+    font-size:1.5rem;
+    line-height: 2.2rem;
+    max-width: 50%;
+    }
+    .footerlinks{
+          color: white;
+          display:flex;
+          flex-direction:column;
+          width:50vw;
+          font-size: 1.5rem;
+          font-weight: bold;
+         padding-right: 250px;
+          
+          
+    }
+a{
+    color: white;
+}
+h4{
+    color: gold;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

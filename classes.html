@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-color: black;
+    }
+   .box1 ,.box2{
+   color:gold;
+   background-color:rgb(62, 60, 60);
+   width:450px;
+   height:450px;
+   border-radius:100px;
+   box-shadow: 4px 4px white;
+  
+   }
+   .head{
+     text-align:center;
+     }
+    .container{
+       padding:5%;
+       justify-content:center;
+       display:flex;
+       flex-direction:row;
+       gap:100px;
+       }
+       button{
+        margin:40px;
+        margin-left:38%;
+        color:white;
+        font-weight: bold;
+        background-color: chartreuse;
+        width:120px;
+        height:40px;
+        border-radius: 20px;
+       }
+       button:hover{
+        background-color: rgb(47, 47, 62);
+       }
+       .image1{
+            margin-left:23%;
+            height:250px;
+            width: 250px;
+            background: url("classes1.webp");
+            background-size: cover;
+            border-radius: 20%;    
+       }
+       .image2{
+        margin-left:23%;
+        height:250px;
+        width: 250px;
+        background: url("yoga.jpg");
+        background-size: cover;
+        border-radius: 20%;    
+   }
+   nav{
+    margin-left:20px;
+    padding:20px;
+    
+   
+   }
+   #span{
+    color: gold;
+    font-weight: bold;
+    font-size: 5rem;
+}
+   .logo{
+    float: left;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;  
+
+}
+.navbtn{
+      float: right;
+}
+</style>
+</head>
+<body>
+
+</body>
+</html>
+<nav>
+    <div class="logo">
+        <span id="span">Fit</span>Connect
+    </div>
+    <div classs="navbtn">
+         <button  onclick="window.location.href = 'home.html';">Back</button>
+    </div>
+</nav>
+<div class="container">
+<div class="box1">
+   <h1 class="head">Fitness</h1>
+   <div class="image1"></div>
+   <button  onclick="window.location.href = 'view_fitclass.html';">View </button>
+   
+</div>
+<div class="box2">
+   <h1 class="head">Yoga</h1>
+   <div class="image2"></div>
+   <button  onclick="window.location.href = 'view_yogaclass.html';">View </button>
+   
+</div>
+</div>
